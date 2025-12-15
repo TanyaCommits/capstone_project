@@ -1,6 +1,4 @@
 import React from "react";
-import AnimatedSection from "./AnimatedSection";
-
 import { motion } from "framer-motion";
 
 export default function Motivation() {
@@ -17,18 +15,21 @@ export default function Motivation() {
         <h2>Why Color-Based Sorting?</h2>
 
         <p>
-          Color-based sorting is a foundational robotics task that appears in
-          manufacturing quality control, recycling systems, and logistics.
+          This task mirrors real-world automation problems such as sorting
+          luggage on airport conveyor belts or separating parts on factory
+          lines.
         </p>
 
         <p>
-          It requires tightly integrating perception, state-based decision
-          making, motion control, and timing under real-world constraints.
+          Objects arrive continuously, decisions must be made quickly, and
+          delays can lead to missed picks or incorrect placement.
         </p>
 
         <p>
-          This project serves as a compact benchmark for autonomous
-          manipulation systems operating in dynamic environments.
+          The robot must recognize each object, time its grasp precisely, and
+          place it in the correct location — all without stopping the system.
+          This makes color-based sorting a compact but powerful testbed for
+          autonomous robotic manipulation in dynamic environments.
         </p>
       </div>
     </motion.section>
