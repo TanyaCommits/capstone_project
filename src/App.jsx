@@ -5,6 +5,8 @@ import Motivation from "./components/Motivation";
 import SystemSetup from "./components/SystemSetup";
 import TechStack from "./components/TechStack";
 import ProjectDemo from "./components/ProjectDemo";
+import TechnicalSummary from "./components/TechnicalSummary";
+
 
 export default function App() {
   return (
@@ -15,6 +17,7 @@ export default function App() {
       <SystemSetup />
       <TechStack />
       <ProjectDemo />
+      <TechnicalSummary />
     </>
   );
 }
